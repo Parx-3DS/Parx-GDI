@@ -1,0 +1,14 @@
+
+#define RED    0xFFFF0000
+#define GREEN  0xFF00FF00
+#define BLUE   0xFF0000FF
+#define CYAN   0xFF00FFFF
+#define PINK   0xFFFF00FF
+#define YELLOW 0xFFFFFF00
+#define BLACK  0xFF000000
+#define WHITE  0xFFFFFFFF
+#define ORANGE 0xFFFF9900
+#define LIGHT_GREEN 0xFF00CC00
+#define PURPLE 0xFF660033
+
+u32 transparent;
