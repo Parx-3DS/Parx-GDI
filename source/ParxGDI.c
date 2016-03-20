@@ -91,7 +91,7 @@ void ClearParx(u8* screen, u32 colour)
 
 	for(i=0;i<width;i++)
            for(j=0;j<height;j++)
-		SetCanvasPixel(screen,i,j,colour);
+		SetPix(screen,i,j,colour);
 }
 
 #define Dual_for(j, i, Top, Left, Width, Height, into) \
@@ -108,8 +108,8 @@ void SetRecEx(u8* screen, int Top, int Left, int Height, int Width, u8* Region, 
 	for(i=Left;i<Width+Left;i++)
            for(j=Top;j<Height+Top;j++)
 		{
-		Pixel = GetCanvasPixel(Region,i-Left,j-Top);
-		if (Pixel != transparent) SetCanvasPixel(screen, i, j, Pixel);
+		Pixel = GetPix(Region,i-Left,j-Top);
+		if (Pixel != transparent) SetPixEx(screen, i, j, Pixel);
                 }
 
   if (CleanUp) switch(RamLocal){
@@ -118,7 +118,7 @@ void SetRecEx(u8* screen, int Top, int Left, int Height, int Width, u8* Region, 
        default:   free(Region); 
 }
 
-//in the begin there was --> SetCanvasPixel(screen[j+Top*CanvasWidth+i+Left],i+Left,j+Top, Region[i,j])
+//in the begin there was --> SetPix(screen[j+Top*CanvasWidth+i+Left],i+Left,j+Top, Region[i,j])
 }
 
 //xerpi noted next_pow2 Grabbed --> http://graphics.stanford.edu/~seander/bithacks.html#RoundUpPowerOf2
@@ -157,10 +157,10 @@ default:
 	int i, j;
 	for(i=Left;i<Width+Left;i++)
            for(j=Top;j<Height+Top;j++)
-			SetCanvasPixel(Region, i-Left, j-Top, GetCanvasPixel(screen,i,j));
+			SetPix(Region, i-Left, j-Top, GetPix(screen,i,j));
 
 // goal reached "section screen with out repeated getgfxframebuffer"
-//	  Region[i,j] = GetCanvasPixel(screen[j+Top*CanvasWidth+i+Left],i+Left,j+Top);
+//	  Region[i,j] = GetPix(screen[j+Top*CanvasWidth+i+Left],i+Left,j+Top);
 
 	return Region;	
 }
