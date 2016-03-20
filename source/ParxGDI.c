@@ -109,7 +109,7 @@ void SetRecEx(u8* screen, int Top, int Left, int Height, int Width, u8* Region, 
            for(j=Top;j<Height+Top;j++)
 		{
 		Pixel = GetPix(Region,i-Left,j-Top);
-		if (Pixel != transparent) SetPixEx(screen, i, j, Pixel);
+		if (Pixel != transparent) SetPix(screen, i, j, Pixel);
                 }
 
   if (CleanUp) switch(RamLocal){
@@ -160,7 +160,7 @@ default:
 			SetPix(Region, i-Left, j-Top, GetPix(screen,i,j));
 
 // goal reached "section screen with out repeated getgfxframebuffer"
-//	  Region[i,j] = GetPix(screen[j+Top*CanvasWidth+i+Left],i+Left,j+Top);
+//	  Region[i,j] = GetCanvasPixel(screen[j+Top*CanvasWidth+i+Left],i+Left,j+Top);
 
 	return Region;	
 }
