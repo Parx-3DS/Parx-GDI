@@ -1,8 +1,6 @@
 # [Parx-GDI](http://flying-dutchmen.github.io/3DS-Sails) 
 
-If U have an invention call 1-800-603-0502
-And a side from my sell this world a "moonbase or our stellar ego",   
-405,696 km or 363,104 kilometers away from retirement/power plant/recycling and canvas the rest of the system. 
+Kickstart, feels and has explained they are unable & "decline" too help me with "Parx GDI & Canvas, for both C & pascal"? as I'm the copyright owner & pioneer and proceeds acumulated "on behalf of, or inpart of this project or other derived works" remains the property of "Kenneth Dwayne Lee, Dob: Jan 10, 1972"!  
 
 #"Elaborate more of a GUI & other uses for arrays of any arbitrary pixels" is the future "in several more chapters" of this rag
 ##Beat'n black adam R&D in 
