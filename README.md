@@ -30,7 +30,8 @@ Co. Kenneth Dwayne Lee
 2.
 Plus if U belive in [Three-DS:Computers:Desk](https://www.3dbrew.org/wiki/Fundraiser) and Proliteriot's whom can build them?  
 
-3. look at any "computer language" and sit as genral in this cause! 
+3. 
+Make hast, look at any "computer language" and sit as Genral in this cause! 
 
 #"Elaborate more of a GUI & other uses for arrays of any arbitrary pixels" is the future "in several more chapters" of this rag
 ##Beat'n black adam R&D in 
