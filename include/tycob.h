@@ -1,6 +1,6 @@
 //Mc corn's of the Mc cob, Author & your old friend...
 //
-//  my are small, & do find Grouse's neck chewy ? 
+//  my needs are small, & do find Prairie Grouse's neck chewy ? 
 //
 //please send any hot 19ish years old & over!
 //female specimens U can part with for 3D examination
