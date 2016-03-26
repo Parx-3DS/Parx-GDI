@@ -1,4 +1,4 @@
-//Mc corn's of the Mc cob, Author...
+//Mc corn's of the Mc cob, Author & old friend...
  //NAME_LEN 
  
  typedef struct {
@@ -8,8 +8,8 @@
  
  Machine 
  linear = { "Pure Digital", 0.4 }, 
- citro3D = { "citro3D Digital", 9.6 }, 
  SF2D = { "SF2D Digital", 9.0 }, 
+ citro3D = { "citro3D Digital", 9.6 }, 
   
  ...
  
