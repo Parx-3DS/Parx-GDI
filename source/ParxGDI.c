@@ -150,7 +150,7 @@ case linear: Region = (u8*)linearMemAlign(bitmapsize, 0x80);
              break;
 
 //Vram & place of over-haul?  
-//GFX engines list who speak em pica200 needs SF2D, citro3D and daughters of OpenGL
+//GFX engines list who speak em pica200 needs SF2D, citro3D and or other sons & daughters of the OpenGL?
 case vram:   bitmapsize = next_pow2(Width) * next_pow2(Height) * (bpp);
              Region = (u8*)vramMemAlign(bitmapsize, 0x80); 
              GX_SetMemoryFill(NULL, Region, 0x00000000, (u32*)&(Region)[bitmapsize], GX_FILL_TRIGGER | GX_FILL_32BIT_DEPTH,NULL, 0x00000000, NULL, 0);
