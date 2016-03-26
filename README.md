@@ -21,8 +21,7 @@ FPC / FreePascal 3DS development testbed & bench sales & Info Contact:
 
 #Two or three other personal request of all
   
-please
-send emailto: "Athabasca U" so I "Kenneth Dwayne Lee :: Dob. Jan 10 1972" may obtain rendering from their "Approval Program" of the alumni & or computer science faculty  >>  fst_success@athabascau.ca
+pleasesend emailto: "Athabasca U" so I "Kenneth Dwayne Lee :: Dob. Jan 10 1972" may obtain rendering from their "Approval Program" of the alumni & or computer science faculty  >>  fst_success@athabascau.ca
 Via Phone: 1-819-205-2321
 Co. Kenneth Dwayne Lee
 78 "A" Rue. Garneau, Gatineau Qc. J8X-1S2 Canada
@@ -30,7 +29,7 @@ Co. Kenneth Dwayne Lee
 Plus if U belive in [Three-DS:Computers:Desk](https://www.3dbrew.org/wiki/Fundraiser) and Proliteriot's whom can build them?  
 & Make hast, look at any "computer language" and sit as Genral in this cause!  
 
-plans or todo ... 
+In my further, plans or todo's ... 
 ##"Elaborate more of a GUI & other uses for arrays of any arbitrary pixels" is the future "in several more chapters" of this rag
 ###Beat'n black adam R&D in 
 those bootblack southern Canadien's, really need to [free Europe & Japan](https://en.wikipedia.org/wiki/Revolution_for_DS)? 
