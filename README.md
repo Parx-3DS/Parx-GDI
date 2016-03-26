@@ -22,9 +22,9 @@ FPC / FreePascal 3DS development testbed & bench sales & Info Contact:
 #Two or three other personal request of all
   
 please send on my behalf emailto: "Athabasca U" so I "Kenneth Dwayne Lee :: Dob. Jan 10 1972" may obtain rendering from their "Approval Program" of the alumni & or computer science faculty  >>  fst_success@athabascau.ca  
-  Re: & in Co. Kenneth Dwayne Lee
-My Phone number at home is: 1-819-205-2321
-78 "A" Rue. Garneau, Gatineau Qc. J8X-1S2 Canada
+  Re: & in Co. Kenneth Dwayne Lee  
+My Phone number at home is: 1-819-205-2321  
+78 "A" Rue. Garneau, Gatineau Qc. J8X-1S2 Canada  
   
 Plus if U belive in [Three-DS:Computers:Desk](https://www.3dbrew.org/wiki/Fundraiser) and Proliteriot's whom can build them?  
 & Make hast, look at any "computer language" and sit as Genral in this cause!  
