@@ -18,7 +18,7 @@ typedef enum
         generic = 0,
 	linear = 1,
 	vram = 2 
-//Give credit, authors in portions of table  
+//Give credit, authors in portions of table in Honest Fashion.,  some how?
 //com out of this like sitar hero on paper punch cards? 
 //Rom-Machine & Versions ? 
 //proliteriot's & meaham ?
