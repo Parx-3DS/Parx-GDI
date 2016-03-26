@@ -18,9 +18,11 @@ typedef enum
         generic = 0,
 	linear = 1,
 	vram = 2 
-//Give credit authors in portions of table  
-//com out of this like sitar heros on paper punch cards?
+//Give credit, authors in portions of table  
+//com out of this like sitar hero on paper punch cards? 
 //Rom-Machine & Versions ? 
+//proliteriot's & meaham ?
+
 }RamType;
 
 typedef struct point
