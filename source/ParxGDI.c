@@ -122,6 +122,7 @@ void SetRecEx(u8* screen, int Top, int Left, int Height, int Width, u8* Region, 
 }
 
 //xerpi noted next_pow2 Grabbed --> http://graphics.stanford.edu/~seander/bithacks.html#RoundUpPowerOf2
+//repeated next_pow2 to be depreciated !
 unsigned int next_pow2(unsigned int v)
 {
     v--;
@@ -145,11 +146,14 @@ case linear: Region = (u8*)linearMemAlign(bitmapsize, 0x80);
              memset(Region, 0, bitmapsize);
              break;
 
+//Vram & place of over-haul?   
 case vram:   bitmapsize = next_pow2(Width) * next_pow2(Height) * (bpp);
              Region = (u8*)vramMemAlign(bitmapsize, 0x80); 
              GX_SetMemoryFill(NULL, Region, 0x00000000, (u32*)&(Region)[bitmapsize], GX_FILL_TRIGGER | GX_FILL_32BIT_DEPTH,NULL, 0x00000000, NULL, 0);
 	     gspWaitForPSC0();
              break;
+//end over-hall?
+
 default: 
 	     Region = (u8*)malloc(bitmapsize);
              memset(Region, 0, bitmapsize);
