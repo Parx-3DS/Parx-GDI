@@ -3,16 +3,16 @@
 Kickstart, feels and has explained they are unable & "decline" too help me with "Parx GDI & Canvas, for both C & pascal"? as I'm the copyright owner & pioneer and proceeds acumulated "on behalf of, or inpart of this project or other derived works" remains the property of "Kenneth Dwayne Lee, Dob: Jan 10, 1972"!  
 
 I wrote "Athabasca U" were I was enrolled with,
-# quote
+### quote
 (Please with out your "lovely" documentation & or further financial support. I fear your 3DS device will fall to no less than Marxist/Leninist/Nintendo pertain only to "VideoGame;by proxy; dictatorships")
 
 & U half bin found under the influence of FPC, in politics of 3DS to a Computer science? U will be processed @ the academic inbreeding facilities immediately  
 --->  http://free-pascal-lazarus.989080.n3.nabble.com/I-ve-got-a-quot-nintendo-3ds-pascal-quot-that-can-all-day-tc4041255.html
-# quote end
+### quote end
 
-Co. Github :: "Three-DS" -->
-"Parx-3DS" :: "Radio-Freedom" gnu c/c+ & "FPC-2.2.2", FreePascal & the "ctru-pas" 
-"extend the Parx-GDI :: C lib with Parx-Pas :: FreePascal stubs & templates!" >> 
+##Re: Github :: "Three-DS" -->   
+"Parx-3DS" :: "Radio-Freedom" gnu c/c+ & "FPC-2.2.2", FreePascal & the "ctru-pas"   
+"extend the Parx-GDI :: C lib with Parx-Pas :: FreePascal stubs & templates!" ->  
 https://www.3dbrew.org/wiki/Homebrew_Libraries_and_Tools
 
 brief & Info:
