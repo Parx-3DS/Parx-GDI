@@ -6,24 +6,45 @@
 //female specimens U can part with for 3D examination
 
 
-//engines & subsystems list         
-// typedef u8* (*HookLoad)(image imagebuff); typedef not in stone? but it's Must! 
-// typedef (*HookFree)(u8* Region); typedef not in stone? but it's Must! 
+//engines & subsystems list  defines       
+ typedef u8* (*HookLoad)(image imagebuff); // not in stone? but it's Must! 
+ typedef (*HookFree)(u8* Region); // not in stone? but it's Must! 
 
- //NAME_LEN 
+ //NAME_LEN else wear ?
  
  typedef struct {
+ 	s32 handle;
 	char MachineNombre [ NAME_LEN + 1 ];
 	double Ver; 
 	HookLoad LoadHDC;
 	HookFree FreeHDC; 
 } Machine;
  
- Machine 
- linear = { "Pure Digital", 0.4, null, null}, 
- SF2D = { "SF2D Digital", 9.0, null, null}, 
- citro3D = { "citro3D Digital", 9.6, null, null}, 
-  
+ 
+ //#include TemplateLoadHDC
+ //#include TemplateFreeHDC
+ 
+
+ Machines Bedlem; 
+ linear = { 0, "linear Pure-Digital", 0.4, null, null}, 
+ // & thus conversed enties with 2 vote & no more  
+ linear =  {-1, "C Smealum", 9.6, null, null}, 
+ linear =  {-2, "D OpenSeat", 9.6, null, null}, 
+ 
  ...
  
- Default = { "Lady Zurich" 1.1 };
+
+ citrus=  {-664, "C++ citrus::Steveice10", 9.6, null, null}, 
+ cpp3ds =  {-665, "C++ cpp3ds::Cruel", 9.6, null, null}, 
+ 
+ 
+ LadyZurich =  {-666, "Arena begins ", 9.6, null, null}, // so please are ..
+ 
+ // & thus savage enties &or engines with 1 vote only    
+ SF2D = { -667, "SF2D Xerpi", 9.0, null, null}, 
+ citro3D = {-668, "citro3D Digital", 9.6, null, null}, 
+ Caelina =  {-669, "Caelina machinamentum", 9.6, null, null}, 
+
+ ...
+ 
+ Default = { -00000, "Pascal LadyZurich", 1.1, null, null};
