@@ -113,13 +113,21 @@ void SetRecEx(u8* screen, int Top, int Left, int Height, int Width, u8* Region, 
                 }
 
   if (CleanUp) switch(RamLocal){
+
+//Vram's & etc, on of the places of 1.1 over-haul? Please review in tycob.h 
+//Free the HDC's of engines & subsystems 
+
+// #include "TemplateFreeHDC.h"
+
        case linear: linearFree(Region); break; 
        case vram: vramFree(Region); break;  
-      //free GFX engines list who speak em pica200 needs 
-      //SF2D, citro3D and or other sons & daughters of the OpenGL?
 
       
        default:   free(Region); 
+
+//free GFX engines list who speak em pica200 needs 
+//SF2D, citro3D and or other sons & daughters of the OpenGL?
+       
 }
 
 //in the begin there was --> SetPix(screen[j+Top*CanvasWidth+i+Left],i+Left,j+Top, Region[i,j])
@@ -146,11 +154,15 @@ u8 * GetRecEx(u8* screen, int Top, int Left, int Height, int Width, u16 bpp, Ram
         u8* Region;
 
 switch(RamLocal){
+	
+	
 case linear: Region = (u8*)linearMemAlign(bitmapsize, 0x80);
              memset(Region, 0, bitmapsize);
              break;
 
-//Vram & place of over-haul? 
+//Vram's & etc, on of the places of 1.1 over-haul? Please review in tycob.h 
+// #include "TemplateLoadHDC.h"
+//Load & Free HDC's
 //engines & subsystems 
 case vram:   bitmapsize = next_pow2(Width) * next_pow2(Height) * (bpp);
              Region = (u8*)vramMemAlign(bitmapsize, 0x80); 
