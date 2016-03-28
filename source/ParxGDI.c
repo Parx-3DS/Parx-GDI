@@ -43,7 +43,7 @@ void SetPixEx(u8* screen, u16 bpp, int h, int x, int y, u32 colour)
 	u8 g = screen[v+1];
 	u8 r = screen[v+2];
 	
-	//the !float version should be faster
+	//lookup tables &or !float version should be faster need operands & moved to macro
 	//revised --> smealum :: 3ds_hb_menu :: gfx.c :: gfxDrawSpriteAlpha
 	screen[v] = (((colour & 0xFF) * alpha) + (b * (255 - alpha))) >> 8; //div 256;
 	screen[v+1] = (((((colour) >> 8) & 0xFF)* alpha) + (g * (255 - alpha))) >> 8; //div 256;
@@ -192,9 +192,8 @@ default:
 //also (unmolested Citrus, GPU, GIMP, openGL &or Nanox or any & all other that "got bent Mozilla" that have endured some form of rape)?
 
 
-//(Lady Zurich) 1.1 
-// device context Handle, moved out side to new "savage" includes
+//(Lady Zurich) 1.1  changes
+// device context Handle, moved outside to new "savage" includes
 // TemplateLoadHDC, TemplateFreeHDC see notes in tycob.h &or our ../DESK 
-
 // memory mappable, savage added & generic dropt in enum
 // *SetRecEx, *SpaceFree append *Free Re:memory 
