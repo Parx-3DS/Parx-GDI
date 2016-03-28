@@ -114,20 +114,25 @@ void SetRecEx(u8* screen, int Top, int Left, int Height, int Width, u8* Region, 
 
   if (CleanUp) switch(RamLocal){
 
+
+       case linear: {linearFree(Region), linearSpaceFree;} break; // case vram: linearFree(Region); break; 
+       case vram: {vramFree(Region), vramSpaceFree;} break; // case vram: vramFree(Region); break; 
+       case mappable: {mappableFree(Region), mappableSpaceFree;} break; // added
+       
 //Vram's & etc, on of the places of 1.1 over-haul? Please review in tycob.h 
 //Free the HDC's of engines & subsystems 
 
+//calls
+//       
+
 // #include "TemplateFreeHDC.h"
-
-       case linear: linearFree(Region); break; 
-       case vram: vramFree(Region); break;  
-
       
-       default:   free(Region); 
 
 //free GFX engines list who speak em pica200 needs 
 //SF2D, citro3D and or other sons & daughters of the OpenGL?
        
+       
+      default:   free(Region); 
 }
 
 //in the begin there was --> SetPix(screen[j+Top*CanvasWidth+i+Left],i+Left,j+Top, Region[i,j])
@@ -160,15 +165,23 @@ case linear: Region = (u8*)linearMemAlign(bitmapsize, 0x80);
              memset(Region, 0, bitmapsize);
              break;
 
+case vram:   Region = (u8*)vramMemAlign(bitmapsize, 0x80);                  
+             memset(Region, 0, bitmapsize);
+             break;
+
+case mappable: Region = (u8*)mappableAlloc(bitmapsize, 0x80);  //just added & untested !                
+             ///memset(Region, 0, bitmapsize);  ?
+             break;
+
 //Vram's & etc, on of the places of 1.1 over-haul? Please review in tycob.h 
 // #include "TemplateLoadHDC.h"
 //Load & Free HDC's
 //engines & subsystems 
-case vram:   bitmapsize = next_pow2(Width) * next_pow2(Height) * (bpp);
-             Region = (u8*)vramMemAlign(bitmapsize, 0x80); 
-             GX_SetMemoryFill(NULL, Region, 0x00000000, (u32*)&(Region)[bitmapsize], GX_FILL_TRIGGER | GX_FILL_32BIT_DEPTH,NULL, 0x00000000, NULL, 0);
-	     gspWaitForPSC0();
-             break;
+//case vram:   bitmapsize = next_pow2(Width) * next_pow2(Height) * (bpp);
+//             Region = (u8*)vramMemAlign(bitmapsize, 0x80); 
+//             GX_SetMemoryFill(NULL, Region, 0x00000000, (u32*)&(Region)[bitmapsize], GX_FILL_TRIGGER | GX_FILL_32BIT_DEPTH,NULL, 0x00000000, NULL, 0);
+//	     gspWaitForPSC0();
+//             break;
 //end over-hall & finacial barrier?    
 
 default: 
@@ -189,3 +202,9 @@ default:
 //the Pro-liter-riot's Sklaven "kennyd-lee" 
 //present's "long sex-live the Pro-liter-riot, &  3 nude lcd's 1/2 of in 3-D"
 //also (unmolested Citrus, GPU, GIMP, openGL &or Nanox or any & all other that "got bent Mozilla" that have endured some form of rape)?
+
+
+//(Lady Zurich) 1.1 
+// device context Handle moved out side to new "savage" includes
+// memory mappable, savage added & generic dropt in enum
+// *SetRecEx, *SpaceFree append *Free Re:memory 
