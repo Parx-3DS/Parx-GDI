@@ -138,20 +138,6 @@ void SetRecEx(u8* screen, int Top, int Left, int Height, int Width, u8* Region, 
 //in the begin there was --> SetPix(screen[j+Top*CanvasWidth+i+Left],i+Left,j+Top, Region[i,j])
 }
 
-//xerpi noted next_pow2 Grabbed --> http://graphics.stanford.edu/~seander/bithacks.html#RoundUpPowerOf2
-//repeated next_pow2 to be depreciated !
-unsigned int next_pow2(unsigned int v)
-{
-    v--;
-    v |= v >> 1;
-    v |= v >> 2;
-    v |= v >> 4;
-    v |= v >> 8;
-    v |= v >> 16;
-    return v+1;
-}
-
-// & portions modify --> xerpi :: libsf2d :: sf2d_texture.c :: sf2d_create_texture
 u8 * GetRecEx(u8* screen, int Top, int Left, int Height, int Width, u16 bpp, RamType RamLocal)
 {  
 //	int CanvasWidth = MaxWidth(screen); ???
@@ -177,6 +163,8 @@ case mappable: Region = (u8*)mappableAlloc(bitmapsize, 0x80);  //just added & un
 // #include "TemplateLoadHDC.h"
 //Load & Free HDC's
 //engines & subsystems 
+
+// & portions modify --> xerpi :: libsf2d :: sf2d_texture.c :: sf2d_create_texture
 //case vram:   bitmapsize = next_pow2(Width) * next_pow2(Height) * (bpp);
 //             Region = (u8*)vramMemAlign(bitmapsize, 0x80); 
 //             GX_SetMemoryFill(NULL, Region, 0x00000000, (u32*)&(Region)[bitmapsize], GX_FILL_TRIGGER | GX_FILL_32BIT_DEPTH,NULL, 0x00000000, NULL, 0);
@@ -205,6 +193,8 @@ default:
 
 
 //(Lady Zurich) 1.1 
-// device context Handle moved out side to new "savage" includes
+// device context Handle, moved out side to new "savage" includes
+// TemplateLoadHDC, TemplateFreeHDC see notes in tycob.h &or our ../DESK 
+
 // memory mappable, savage added & generic dropt in enum
 // *SetRecEx, *SpaceFree append *Free Re:memory 
