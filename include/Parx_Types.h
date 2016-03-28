@@ -15,9 +15,10 @@ u8* ParxTopRight;
 
 typedef enum
 {
-        generic = 0,
-	linear = 1,
-	vram = 2 
+	linear = 0,
+	vram = 1,
+        mappable = 2, //generic dropt 
+        savage = 3
 //Give credit, authors in portions of table in Honest Fashion.,  some how?
 //com out of this like sitar hero on paper punch cards? 
 //Rom-Machine & Versions ? 
