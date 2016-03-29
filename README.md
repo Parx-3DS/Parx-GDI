@@ -17,7 +17,7 @@ https://www.3dbrew.org/wiki/Homebrew_Libraries_and_Tools
 
 brief & Info:  
 FPC / FreePascal 3DS development testbed & bench sales & Info Contact: 
-[linkedin](https://ca.linkedin.com/in/kennyd-lee-b6bb92b4), [Parx](https://www.facebook.com/Parx-1735214770048259), [twitter](https://twitter.com/Kenny_D_Lee) & the [n3ds-freepascal](https://www.facebook.com/n3ds-freepascal-1596037147331761)  
+[linkedin](https://ca.linkedin.com/in/kennyd-lee-b6bb92b4),  [Three-DS Computers](https://www.facebook.com/Three-DS-973285209425506) :: [Parx](https://www.facebook.com/Parx-1735214770048259), [twitter](https://twitter.com/Kenny_D_Lee) & the [n3ds-freepascal](https://www.facebook.com/n3ds-freepascal-1596037147331761)  
 
 #Two or three other personal request of all
   
