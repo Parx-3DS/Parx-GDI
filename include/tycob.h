@@ -52,7 +52,7 @@
  
  // & thus savage enties &or engines with 1 vote only    
  SF2D = { -667, "SF2D Xerpi", 9.0, null, null}, 
- citro3D = {-668, "citro3D Digital", 9.6, null, null}, 
+ citro3D = {-668, "citro3D Fincs", 9.6, null, null}, 
  Caelina =  {-669, "Caelina machinamentum", 9.6, null, null}, 
 
  ...
