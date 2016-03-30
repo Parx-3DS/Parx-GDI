@@ -25,15 +25,19 @@
  //#include TemplateFreeHDC
  
 
- Machines Bedlem; 
- linear = { 0, "linear Pure-Digital", 0.4, null, null}, 
+ Machines Bedlem; compilers top & imperator from bottom of drophole old fiends
+ linear = { 0, "Pascal KennyD-Lee", 0.4, null, null}, 
  // & thus conversed enties with 2 vote & no more  
  linear =  {-1, "C Smealum", 9.6, null, null}, 
- linear =  {-2, "D OpenSeat", 9.6, null, null}, 
+ linear =  {-2, "C++ OpenSeat", 0.0, null, null}, 
+ linear =  {-3, "D OpenSeat", 0.0, null, null}, 
+ linear =  {-4, "Fortran OpenSeat", 0.0, null, null}, 
+ linear =  {-5, "Ada OpenSeat", 0.0, null, null}, 
+ linear =  {-6, "Lisp OpenSeat", 0.6, null, null}, 
  
  ...
  
-
+the C++ seats sugestions ? 
  citrus=  {-664, "C++ citrus::Steveice10", 9.6, null, null}, 
  cpp3ds =  {-665, "C++ cpp3ds::Cruel", 9.6, null, null}, 
  
