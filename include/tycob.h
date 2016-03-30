@@ -25,23 +25,29 @@
  //#include TemplateFreeHDC
  
 
- Machines Bedlem; compilers top & imperator from bottom of drophole old fiends
- linear = { 0, "Pascal KennyD-Lee", 0.4, null, null}, 
+ Machines Bedlem; 
+ //compilers top & interpreter from bottom of drophole old fiends
  // & thus conversed enties with 2 vote & no more  
+ linear = { 0, "Pascal KennyD-Lee", 0.4, null, null}, 
  linear =  {-1, "C Smealum", 9.6, null, null}, 
  linear =  {-2, "C++ OpenSeat", 0.0, null, null}, 
  linear =  {-3, "D OpenSeat", 0.0, null, null}, 
  linear =  {-4, "Fortran OpenSeat", 0.0, null, null}, 
- linear =  {-5, "Ada OpenSeat", 0.0, null, null}, 
- linear =  {-6, "Lisp OpenSeat", 0.6, null, null}, 
- 
+
+
  ...
  
-the C++ seats sugestions ? 
- citrus=  {-664, "C++ citrus::Steveice10", 9.6, null, null}, 
- cpp3ds =  {-665, "C++ cpp3ds::Cruel", 9.6, null, null}, 
+//the C++ seats sugestions ? 
+ //citrus=  {-664, "C++ citrus::Steveice10", 9.6, null, null}, 
+ //cpp3ds =  {-665, "C++ cpp3ds::Cruel", 9.6, null, null}, 
  
  
+ linear =  {-664, "Basic OpenSeat", 0.0, null, null}, 
+ //linear =  {-661, "Basic OpenSeat", 0.0, null, null}, 
+ linear =  {-662, "Lisp OpenSeat", 0.6, null, null}, 
+ linear =  {-663, "Ada OpenSeat", 0.0, null, null}, 
+ linear =  {-664, "Python OpenSeat", 0.6, null, null}, 
+ linear =  {-665, "Perl OpenSeat", 0.6, null, null}, 
  LadyZurich =  {-666, "Arena begins ", 9.6, null, null}, // so please are ..
  
  // & thus savage enties &or engines with 1 vote only    
