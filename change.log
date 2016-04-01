@@ -9,12 +9,11 @@ usage‬ &or examples are for purchase
 (Lady Zurich) v1.2 log 
 dept generic for 
 and added "mappable" from --> ../../kennyd-lee/ctru-pas-1.0.0/blob/master/3ds/allocator.inc 
+ *SetRecEx, *SpaceFree append *Free Re:memory 
+lines 163, 128 -> https://github.com/Parx-3DS/Parx-GDI/blob/master/source/ParxGDI.c
 Engines name space & their device context Handles,
 moved outside to new "savage" includes
  TemplateLoadHDC, TemplateFreeHDC see notes in tycob.h &or our ../DESK 
- memory mappable, savage added & generic dropt in enum
- *SetRecEx, *SpaceFree append *Free Re:memory 
-lines 163, 128 -> https://github.com/Parx-3DS/Parx-GDI/blob/master/source/ParxGDI.c
 
 (Lady Zurich) v1.3 log 
 add GSP_FramebufferFormats --> ../Parx-Pas/blob/master/parx_inf.inc
