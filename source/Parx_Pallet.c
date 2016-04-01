@@ -4,7 +4,7 @@
 #include <3ds.h>
 
 //DIBs Context or it's format pallet type 
-GSPGPU_FramebufferFormats bytes_per_pixel(u8 FormatIndex)
+GSPGPU_FramebufferFormats palletformat(u8 FormatIndex)
 {
   switch(format)
   {
