@@ -1,14 +1,22 @@
 Parx-GDI Canvas v0.1
+Author, Kenneth Dwayne Lee :: Dob Jan 10, 1972 
 
 Files sorted & renamed
 Dropt "CanvasPixel" opt "Pix" in calls 
 usage‬ &or examples are for purchase  
 & make way too 3dbrew, with brewery parts?
 
+(Lady Zurtch) v1.2 log 
+dept generic for 
+and added "mappable" from --> ../../kennyd-lee/ctru-pas-1.0.0/blob/master/3ds/allocator.inc 
+move engines name space to #includes "TemplateFreeHDC.h" &or "TemplateLoadHDC.h" 
+lines 163, 128 -> https://github.com/Parx-3DS/Parx-GDI/blob/master/source/ParxGDI.c
+
 (Lady Zurtch) v1.3 log 
-add GSP_FramebufferFormats for lib use 
+add GSP_FramebufferFormats --> ../Parx-Pas/blob/master/parx_inf.inc
 append PalletFormats & 
 Github::mtheall use of pallet context handling of  
-bytes_per_pixel, rgb_to_pixel, pixel_to_rgba now in pascal  
+bytes_per_pixel, rgb_to_pixel, pixel_to_rgba 
+  
 
 in theroy a "Pascal sub-system enabled Canvas-GDI" does merit and could rival, Pica200 with OpenGL pushing ?
