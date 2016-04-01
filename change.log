@@ -5,4 +5,10 @@ Dropt "CanvasPixel" opt "Pix" in calls
 usage‬ &or examples are for purchase  
 & make way too 3dbrew, with brewery parts?
 
+(Lady Zurtch) v1.3 log 
+add GSP_FramebufferFormats for lib use 
+append PalletFormats & 
+Github::mtheall use of pallet context handling of  
+bytes_per_pixel, rgb_to_pixel, pixel_to_rgba now in pascal  
+
 in theroy a "Pascal sub-system enabled Canvas-GDI" does merit and could rival, Pica200 with OpenGL pushing ?
