@@ -3,6 +3,7 @@
 //forked --> https://github.com/mtheall/screenshot_png
 //bytes per pixel, for handling the Framebuffers pallet of colours
 
+GSPGPU_FramebufferFormats palletformat(u8 FormatIndex);
 // --> screenshot_png.c :: bytes_per_pixel
 u32 bytes_per_pixel(GSPGPU_FramebufferFormats format);
 // --> main.c :: rgb_to_pixel
