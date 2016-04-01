@@ -3,6 +3,19 @@
 
 #include <3ds.h>
 
+//DIBs Context or it's format pallet type 
+GSPGPU_FramebufferFormats bytes_per_pixel(u8 FormatIndex)
+{
+  switch(format)
+  {
+    case 0: return GSP_RGBA8_OES;
+    case 1: return GSP_BGR8_OES;
+    case 2: return GSP_RGB565_OES;
+    case 3: return GSP_RGB5_A1_OES;
+    case 4: return GSP_RGBA4_OES;
+  }
+}
+
 // --> screenshot_png.c :: bytes_per_pixel
 u32 bytes_per_pixel(GSPGPU_FramebufferFormats format)
 {
