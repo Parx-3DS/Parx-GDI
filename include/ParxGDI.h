@@ -16,7 +16,7 @@ u32 GetPixEx(u8* screen, u16 bpp, int h, int x, int y);
 
 void ClearParx(u8* screen, u32 colour);
 
-void SetRecEx(u8* screen, int Top, int Left, int Height, int Width, u8* Region, bool CleanUp, RamType RamLocal);
+u32 SetRecEx(u8* screen, int Top, int Left, int Height, int Width, u8* Region, bool CleanUp, RamType RamLocal);
 #define SetRecRe(screen, Top, Left, Height, Width, Region) (SetRecEx(screen, Top, Left, Height, Width, Region, 1, linear))
 
 // bufferFormat 
