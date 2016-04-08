@@ -100,7 +100,7 @@ void ClearParx(u8* screen, u32 colour)
 
 //u32 transparent;
 //#define SetRecRe(screen, Top, Left, Height, Width, Region) (SetRecEx(screen, Top, Left, Height, Width, Region, 1))
-void SetRecEx(u8* screen, int Top, int Left, int Height, int Width, u8* Region, bool CleanUp, RamType RamLocal)
+u32 SetRecEx(u8* screen, int Top, int Left, int Height, int Width, u8* Region, bool CleanUp, RamType RamLocal)
 { 
 //	int CanvasWidth = MaxWidth(screen);
 	int i, j;
@@ -115,9 +115,9 @@ void SetRecEx(u8* screen, int Top, int Left, int Height, int Width, u8* Region, 
   if (CleanUp) switch(RamLocal){
 
 
-       case linear: {linearFree(Region), linearSpaceFree;} break; // case vram: linearFree(Region); break; 
-       case vram: {vramFree(Region), vramSpaceFree;} break; // case vram: vramFree(Region); break; 
-       case mappable: {mappableFree(Region), mappableSpaceFree;} break; // added
+       case linear: {linearFree(Region); return linearSpaceFree;} break; // case vram: linearFree(Region); break; 
+       case vram: {vramFree(Region); return vramSpaceFree;} break; // case vram: vramFree(Region); break; 
+       case mappable: {mappableFree(Region); return mappableSpaceFree;} break; // added
        
 //Vram's & etc, on of the places of 1.1 over-haul? Please review in tycob.h 
 //Free the HDC's of engines & subsystems 
@@ -155,7 +155,7 @@ case vram:   Region = (u8*)vramMemAlign(bitmapsize, 0x80);
              memset(Region, 0, bitmapsize);
              break;
 
-case mappable: Region = (u8*)mappableAlloc(bitmapsize, 0x80);  //just added & untested !                
+case mappable: Region = (u8*)mappableAlloc(bitmapsize);  //just added & untested !                
              ///memset(Region, 0, bitmapsize);  ?
              break;
 
