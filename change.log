@@ -16,9 +16,10 @@ Engines name space &or their Device Context Handles, moved outside to new "savag
 
 (Lady Zurich) v1.3 log 
 add GSP_FramebufferFormats --> ../Parx-Pas/blob/master/parx_inf.inc
+append FloodFill --> ./include/Parx_Fill.h & ./source/Parx_Fill.c
 append PalletFormats & 
 Github::mtheall use of pallet context handling of  
-bytes_per_pixel, rgb_to_pixel, pixel_to_rgba 
+bppixel, rgb2pixel, pixel2rgba 
   
 
 in theroy a "Pascal sub-system enabled Canvas-GDI" does merit and could rival, Pica200 with OpenGL pushing ?
