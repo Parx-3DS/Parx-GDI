@@ -1,5 +1,3 @@
-
-
 //forked --> https://github.com/mtheall/screenshot_png
 //bytes per pixel, for handling the Framebuffers pallet of colours
 
