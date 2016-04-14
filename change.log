@@ -21,5 +21,10 @@ append PalletFormats &
 Github::mtheall use of pallet context handling of  
 bppixel, rgb2pixel, pixel2rgba 
   
+ (Lady Zurich) v1.4 log (untested)
+cleaned some defines moving code closer to portibal 
+append ParxLCD enum --> RefParx()
+append RefParx function & MaxWidth in headers
+fixed ordering of Top,Left,Height,Width, --> SetRecEx()
 
 in theroy a "Pascal sub-system enabled Canvas-GDI" does merit and could rival, Pica200 with OpenGL pushing ?
