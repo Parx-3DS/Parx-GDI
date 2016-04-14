@@ -23,7 +23,7 @@
 //Why i'm not re-wright some or all in pascal
 //SetPixEx && GetPixEx 
 //R.C. Q&A: DS/3DS/wii prolitriot on a semi-portibal quest for the nontendo unified thyrom? 
-//h dropped and bpp tobe move into macro & valist args ...) Eg. SetPix8, SetPix16, .. 
+//bpp tobe move into macro & valist args ...) Eg. SetPix8, SetPix16, .. 
 void SetPixEx(u8* screen, u16 bpp, int h, int x, int y, u32 colour)
 {
 //       int height=240;
@@ -82,14 +82,32 @@ u32 GetPixEx(u8* screen, u16 bpp, int h, int x, int y)
 int MaxWidth(u8* screen)
 { 
 //top
-   if (screen = (gfxGetFramebuffer(GFX_TOP, GFX_LEFT, NULL, NULL) || gfxGetFramebuffer(GFX_TOP, GFX_RIGHT, NULL, NULL))) return 400;
+   if (screen = (gfxGetFramebuffer(GFX_TOP, GFX_LEFT, NULL, NULL) || gfxGetFramebuffer(GFX_TOP, GFX_RIGHT, NULL, NULL))) return TOP_SCREEN_X;
 //bottom
-   else if (screen = gfxGetFramebuffer(GFX_BOTTOM, GFX_LEFT, NULL, NULL)) return 340;
+   else if (screen = gfxGetFramebuffer(GFX_BOTTOM, GFX_LEFT, NULL, NULL)) return BOTTOM_SCREEN_X;
 }
 
-void ClearParx(u8* screen, u32 colour)
+//obtain & return buffer pointer (not finial!)
+u8* RefParx(ParxLCD LCD)
 { 
-	int height=240;
+switch (LCD) {
+case P_R:
+  return &ParxTopRight == gfxGetFramebuffer(GFX_TOP, GFX_RIGHT, NULL, NULL);
+  break;
+case P_B:
+  return &ParxBottom == gfxGetFramebuffer(GFX_BOTTOM, GFX_LEFT, NULL, NULL);
+  break;
+case P_L:
+  return &ParxTopLeft == gfxGetFramebuffer(GFX_TOP, GFX_LEFT, NULL, NULL);
+  break;
+default:
+  break;
+ }
+}
+
+void ClrParx(u8* screen, u32 colour)
+{ 
+	int height=SCREEN_Y;
 	int width = MaxWidth(screen);
 	int i, j;
 
@@ -117,7 +135,6 @@ u32 SetRecEx(u8* screen, int Top, int Left, int Height, int Width, u8* Region, b
                 }
 
   if (CleanUp) switch(RamLocal){
-
 
        case linear: {linearFree(Region); return linearSpaceFree;} break; // case vram: linearFree(Region); break; 
        case vram: {vramFree(Region); return vramSpaceFree;} break; // case vram: vramFree(Region); break; 
