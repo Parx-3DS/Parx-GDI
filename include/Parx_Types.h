@@ -3,15 +3,25 @@ u8* ParxBottom;
 u8* ParxTopLeft;
 u8* ParxTopRight;
 
+
+#define SCREEN_Y 240
+
 #define TOP_SCREEN_X 400
-#define TOP_SCREEN_Y 240
+#define TOP_SCREEN_Y SCREEN_Y
 
 #define BOTTOM_SCREEN_X 320
-#define BOTTOM_SCREEN_Y 240
+#define BOTTOM_SCREEN_Y SCREEN_Y
 
 #define MIN(a,b) (((a)<(b))?(a):(b))
 #define MAX(a,b) (((a)>(b))?(a):(b))
 
+
+typedef enum
+{
+	P_L = 0,
+        P_B = 1, 
+	P_R = 2
+}ParxLCD;
 
 typedef enum
 {
