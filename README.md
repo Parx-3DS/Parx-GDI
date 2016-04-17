@@ -56,4 +56,4 @@ http://www.ontario.ca/page/crown-land
 May I,  digress with: R&D Live on Radio-Freedom
 Is your 3DS Nintendo's "GDI - Canvas" in C & Pascal three-way? 
 
-Get more info --> [Parx](https://www.facebook.com/Parx-1735214770048259) for is hire, some just dabble, proliteriots  [nabble](http://free-pascal-lazarus.989080.n3.nabble.com/Three-DS-Parx-GDI-it-s-big-enuff-for-a-quot-shoebox-quot-fits-more-in-quot-cupboard-quot-tc4047731.html)
+Get more info --> [Parx](https://www.facebook.com/Parx-1735214770048259), some just dabble, proliteriots  [nabble](http://free-pascal-lazarus.989080.n3.nabble.com/Three-DS-Parx-GDI-it-s-big-enuff-for-a-quot-shoebox-quot-fits-more-in-quot-cupboard-quot-tc4047731.html)
