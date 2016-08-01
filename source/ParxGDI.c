@@ -92,13 +92,13 @@ u8* RefParx(ParxLCD LCD)
 { 
 switch (LCD) {
 case P_R:
-  return &ParxTopRight == gfxGetFramebuffer(GFX_TOP, GFX_RIGHT, NULL, NULL);
+  return &ParxRight == gfxGetFramebuffer(GFX_TOP, GFX_RIGHT, NULL, NULL);
   break;
 case P_B:
-  return &ParxBottom == gfxGetFramebuffer(GFX_BOTTOM, GFX_LEFT, NULL, NULL);
+  return &ParxBot == gfxGetFramebuffer(GFX_BOTTOM, GFX_LEFT, NULL, NULL);
   break;
 case P_L:
-  return &ParxTopLeft == gfxGetFramebuffer(GFX_TOP, GFX_LEFT, NULL, NULL);
+  return &ParxLeft == gfxGetFramebuffer(GFX_TOP, GFX_LEFT, NULL, NULL);
   break;
 default:
   break;
