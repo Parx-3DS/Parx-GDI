@@ -1,7 +1,7 @@
 
-u8* ParxBottom;
-u8* ParxTopLeft;
-u8* ParxTopRight;
+u8* ParxBot;
+u8* ParxLeft;
+u8* ParxRight;
 
 
 #define SCREEN_Y 240
@@ -11,10 +11,6 @@ u8* ParxTopRight;
 
 #define BOTTOM_SCREEN_X 320
 #define BOTTOM_SCREEN_Y SCREEN_Y
-
-#define MIN(a,b) (((a)<(b))?(a):(b))
-#define MAX(a,b) (((a)>(b))?(a):(b))
-
 
 typedef enum
 {
@@ -36,6 +32,10 @@ typedef enum
 
 }RamType;
 
+
+#define MIN(a,b) (((a)<(b))?(a):(b))
+#define MAX(a,b) (((a)>(b))?(a):(b))
+
 typedef struct point
 {
    int   x;
@@ -44,8 +44,8 @@ typedef struct point
 
 typedef struct rect
 {
-   int   x;
-   int   y;
-   int   h;
-   int   w;
+   int   top;
+   int   left;
+   int   bottom;
+   int   right;
 } rect;
