@@ -27,4 +27,13 @@ append ParxLCD enum --> RefParx()
 append RefParx function & MaxWidth in headers
 fixed ordering of Top,Left,Height,Width, --> SetRecEx()
 
+
+ (Lady Zurich) v1.5 log 
+append lineSample, EllipseSample functions --> ./include/Parx_Buffer.h & ./source/Parx_Buffer.c & parx_inf.inc
+
+R&D ForSale parx.pas --> PSetPix, BSetPix functions based on 
+                    24bit RGB, PTopRawLinear & BotRawLinear faster than the C based code counterparts
+R&D ForSale ParxPlus.pas --> GraphPix & GraphPixBot, TopMapLED & BotMapLED mapped version of  
+
+
 in theroy a "Pascal sub-system enabled Canvas-GDI" does merit and could rival, Pica200 with OpenGL pushing ?
