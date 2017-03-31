@@ -32,8 +32,7 @@ fixed ordering of Top,Left,Height,Width, --> SetRecEx()
 append lineSample, EllipseSample functions --> ./include/Parx_Buffer.h & ./source/Parx_Buffer.c & parx_inf.inc
 
 R&D ForSale parx.pas --> PSetPix, BSetPix functions based on 
-                    24bit RGB, PTopRawLinear & BotRawLinear faster than the C based code counterparts
-R&D ForSale ParxPlus.pas --> GraphPix & GraphPixBot, TopMapLED & BotMapLED mapped version of  
-
+                    24bit RGB, TopRawLinear & BotRawLinear faster than the C based code counterparts
+R&D ForSale ParxPlus.pas --> GfxPix & GfxPixB Rastar &or !far version of a Left, Right & Bottom Maps @ 16.4 million colours @ 60 million 3DS sold @ 2nd most widly used computer language$ for the development of $ci & application$.  
 
 in theroy a "Pascal sub-system enabled Canvas-GDI" does merit and could rival, Pica200 with OpenGL pushing ?
