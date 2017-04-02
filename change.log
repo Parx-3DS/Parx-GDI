@@ -1,4 +1,4 @@
-Parx-GDI Canvas v0.1
+﻿Parx-GDI Canvas v0.1
 Author, Kenneth Dwayne Lee :: Dob Jan 10, 1972 
 
 Files sorted & renamed
@@ -31,8 +31,10 @@ fixed ordering of Top,Left,Height,Width, --> SetRecEx()
  (Lady Zurich) v1.5 log 
 append lineSample, EllipseSample functions --> ./include/Parx_Buffer.h & ./source/Parx_Buffer.c & parx_inf.inc
 
-R&D ForSale parx.pas --> PSetPix, BSetPix functions based on 
-                    24bit RGB, TopRawLinear & BotRawLinear faster than the C based code counterparts
-R&D ForSale ParxPlus.pas --> GfxPix & GfxPixB Rastar &or !far version of a Left, Right & Bottom Maps @ 16.4 million colours @ 60 million 3DS sold @ 2nd most widly used computer language$ for the development of $ci & application$.  
 
-in theroy a "Pascal sub-system enabled Canvas-GDI" does merit and could rival, Pica200 with OpenGL pushing ?
+R&D ForSale parx.pas --> PSetPix, BSetPix functions based on 
+                    24bit RGB, TopRawLinear & BotRawLinear {Public Retraction!! faster than the C based code counterparts. Results @ 78 milliseconds when PSetPix, BSetPix are used from C, are not in &or on display as photos of this! I'll add when their use is near & looped locally in pascal there is an even playing field End OF Retraction!!}
+
+R&D ForSale ParxPlus.pas --> GfxPix & GfxPixB Rastar &or !far version of a Left, Right & Bottom Maps @ 16.4 million colours @ 60 million 3DS sold @ 2nd most widely used computer language$ for the development of $cience & application$.  
+
+in theory a "Pascal sub-system enabled Canvas-GDI" does merit and could rival, Pica200 with OpenGL pushing ?
