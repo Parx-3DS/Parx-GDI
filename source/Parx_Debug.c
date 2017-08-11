@@ -1,4 +1,4 @@
-#include "Parx_Debug.h"
+#include "parx/Parx_Debug.h"
 
 void DebugTo(u8* screen, int x, int y, u32 colour, const char* str,...)
 {
@@ -9,5 +9,5 @@ void DebugTo(u8* screen, int x, int y, u32 colour, const char* str,...)
     //sprintf(formated, str, ap);
     va_end(ap);
     CanvasString(screen, formated, x, y, colour);
-    gfxFlushBuffers();
+//    gfxFlushBuffers();
 }

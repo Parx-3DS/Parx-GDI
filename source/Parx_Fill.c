@@ -1,5 +1,6 @@
-#include "ParxGDI.h"
-#include "Parx_Fill.h"
+//forked --> https://github.com/linoma/fb43ds/blob/master/source/gfxDraw.c
+#include <ParxGDI.h>
+#include "parx/Parx_Fill.h"
 
 //---------------------------------------------------------------------------
 void GradientFillRect(rect *prc,int radius,int mode,u32 s_col,u32 e_col,u8 *screen)

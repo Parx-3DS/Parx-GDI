@@ -1,4 +1,4 @@
-#include "Parx_Buffer.h"
+#include "parx/Parx_Buffer.h"
 
 void lineSample(u8* screen, int x0, int y0, int x1, int y1, u8* buffer) {
   int dx = abs(x1-x0), sx = x0<x1 ? 1 : -1;

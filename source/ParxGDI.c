@@ -1,5 +1,5 @@
-#include "ParxGDI.h"
-#include "Parx_Pallet.h"
+#include <ParxGDI.h>
+#include "parx/Parx_Pallet.h"
 
 // the Pro-liter-riot's, Sklaven (a turned-out &or bent FSF/Open-Source) 
 // [act 1, scene 1] 

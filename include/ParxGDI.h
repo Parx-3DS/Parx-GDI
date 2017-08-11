@@ -1,8 +1,8 @@
 #include <3ds.h>
 
 #ifndef ParxGDI_Canvas
-#include "Parx_Colours.h"
-#include "Parx_Types.h"
+#include "parx/Parx_Colours.h"
+#include "parx/Parx_Types.h"
 #define ParxGDI_Canvas 
 #endif
 
