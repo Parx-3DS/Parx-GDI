@@ -47,7 +47,7 @@
  linear =  {-662, "Lisp OpenSeat", 0.6, null, null}, 
  linear =  {-663, "Ada OpenSeat", 0.0, null, null}, 
  linear =  {-664, "Python OpenSeat", 0.6, null, null}, 
- linear =  {-665, "Perl OpenSeat", 0.6, null, null}, 
+ linear =  {-665, "Perl KennyD-Lee", 0.6, null, null}, 
  LadyZurich =  {-666, "Arena begins ", 9.6, null, null}, // so please are ..
  
  // & thus savage enties &or engines with 1 vote only    
